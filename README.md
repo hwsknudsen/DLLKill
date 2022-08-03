@@ -7,4 +7,4 @@ This DLLHOST process can be killed removing any hung connections
 
 This is instead of having to Restart SQL itself 
 
-Run the Powershell script/onstart/ in the background etc. will monitior the DLL HOST and then Kill IT 
+Run the Powershell script/onstart/ in the background etc. will monitior the DLL HOST and then Kill IT if it has been running for to long i.e. it got hung and didnt close itself gracefully 
